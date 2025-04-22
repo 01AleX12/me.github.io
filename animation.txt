@@ -1,0 +1,44 @@
+Html:
+
+<div class="marquee">
+      <div class="marquee-inner">
+        <div class="marquee-content">🌟 Este texto se desplaza infinitamente sin cortes. ¡Suave como la seda! 🌟</div>
+        <div class="marquee-content">🌟 Este texto se desplaza infinitamente sin cortes. ¡Suave como la seda! 🌟</div>
+      </div>
+    </div>
+
+Css:
+
+.marquee {
+  overflow: hidden; /* Oculta el contenido que sobresale */
+  white-space: nowrap; /* Evita saltos de línea */
+  width: 100%;
+  background: #f5f5f5;
+  padding: 10px 0;
+}
+.marquee-inner {
+  display: inline-flex; /* Usamos flex para alinear el contenido duplicado */
+}
+.marquee-content {
+  display: inline-block;
+  padding: 0 20px; /* Espacio entre elementos (opcional) */
+  font-size: 24px;
+}
+
+Js:
+
+document.addEventListener("DOMContentLoaded", () => {
+  const marqueeInner = document.querySelector(".marquee-inner");
+  const marqueeContent = document.querySelector(".marquee-content");
+  
+  // Calculamos el ancho del contenido para moverlo exactamente esa distancia
+  const contentWidth = marqueeContent.offsetWidth;
+  
+  // Animación principal
+  gsap.to(marqueeInner, {
+      x: -contentWidth, // Mueve el contenedor a la izquierda (el ancho del contenido)
+      duration: 10,
+      repeat: -1, // Repite infinitamente
+      ease: "none", // Movimiento lineal (sin aceleración)
+  });
+});
