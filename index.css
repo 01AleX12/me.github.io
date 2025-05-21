@@ -96,7 +96,31 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* boton cv */
 
+.enlace-cv {
+  text-decoration: none;
+}
+
+.btn-cv {
+  border: none;
+  border-radius: 100px;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.04),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+  color: #fff;
+}
+
+.btn-cv:hover {
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.603);
+  color: white;
+  transform: translate(0, -0.25rem);
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 /*----------------------- boton flecha ------------------------*/
 
