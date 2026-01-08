@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.bbh {
+   font-family: "BBH Bartle", sans-serif;
+}
+
+@font-face {
+   font-family: "BBH Bartle";
+   src: url("../src/assets/fonts/BBHBartle-Regular.ttf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
