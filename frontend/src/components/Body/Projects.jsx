@@ -80,7 +80,7 @@ function Projects() {
               usuarios, panel de usuario y formulario de contacto.
             </p>
             <a
-              href=""
+              href="https://github.com/01AleX12/ViryoniaMakeup"
               className="flex gap-2 w-fit text-sm font-semibold px-2 py-2 bg-white text-[#161c24] rounded-md hover:bg-white/70 hover:scale-102 transition"
             >
               <img src={github} alt="GitHub" className="w-5" />
@@ -142,7 +142,7 @@ function Projects() {
               predefinida.
             </p>
             <a
-              href=""
+              href="https://github.com/01AleX12/Docx_Converter"
               className="flex gap-2 w-fit text-sm font-semibold px-2 py-2 bg-white text-[#161c24] rounded-md hover:bg-white/70 hover:scale-102 transition"
             >
               <img src={github} alt="GitHub" className="w-5" />
@@ -248,7 +248,7 @@ function Projects() {
               Landing page creada para un grupo de DJS de musica electrónica. Cuenta con promoción de cada integrante, eventos y multimedia.
             </p>
             <a
-              href=""
+              href="https://github.com/ToniDev182/BlackMesaCollective"
               className="flex gap-2 w-fit text-sm font-semibold px-2 py-2 bg-white text-[#161c24] rounded-md hover:bg-white/70 hover:scale-102 transition"
             >
               <img src={github} alt="GitHub" className="w-5" />

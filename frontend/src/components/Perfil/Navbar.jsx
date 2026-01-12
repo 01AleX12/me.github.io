@@ -15,6 +15,12 @@ function Navbar() {
             Proyectos
          </a>
          <a
+            href="#sobremi"
+            className="text-sm md:text-base text-white/80 hover:text-white transition"
+         >
+            Sobre mi
+         </a>
+         <a
             href="#contacto"
             className="text-sm md:text-base text-white/80 hover:text-white transition"
          >
