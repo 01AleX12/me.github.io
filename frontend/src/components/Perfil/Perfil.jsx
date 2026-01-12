@@ -44,7 +44,7 @@ function Perfil() {
 
         {/* boton de curriculum */}
          <a
-            href="https://drive.google.com/file/d/1z4vrda4KjzKkHKNQRSFZdu5hnm6gJ_1Z/view?usp=sharing"
+            href="https://drive.google.com/file/d/1AuQ3G2x0jBur7VbSlv1zbGSDhuBdFVCA/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm md:text-base font-semibold flex items-center gap-2 px-4 py-2 bg-[#161c24] text-white rounded-md hover:bg-white/30 transition
